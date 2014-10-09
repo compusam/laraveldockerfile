@@ -2,9 +2,9 @@
 # And this tutorial: https://www.digitalocean.com/community/tutorials/how-to-install-laravel-with-nginx-on-an-ubuntu-12-04-lts-vps
 
 server {
-        listen   80 default_server;
+        listen   8080 default_server;
 
-        root /share/public/;
+        root /var/www/laravel/public/;
         index index.php index.html index.htm;
 
         location / {

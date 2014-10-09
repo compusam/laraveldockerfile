@@ -79,8 +79,6 @@ mkdir /var/www/laravel
 
 # bajando el laravel
 composer create-project laravel/laravel /var/www/laravel/ 4.1
-#asignando permisos a la carpeta storage
-chmod 777 -R /var/www/laravel/app/storage
 
 # ------------------------------------------------------------------------------
 # Clean up
